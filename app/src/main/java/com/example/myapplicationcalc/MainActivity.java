@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         if (selectedItem == R.id.menuShare) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this app! - https://github.com/amirul360/ezGoldZakat.git");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this app! - https://github.com/amirul360/ezGoldZakat_zakatGoldCalculatorApp.git");
             startActivity(Intent.createChooser(shareIntent, "Share via"));
 
             Toast.makeText(this, "Share selected", Toast.LENGTH_SHORT).show();

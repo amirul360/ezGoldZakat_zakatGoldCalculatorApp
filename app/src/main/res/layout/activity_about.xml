@@ -128,16 +128,16 @@
     <TextView
         android:id="@+id/myTextView"
         android:layout_width="352dp"
-        android:layout_height="46dp"
+        android:layout_height="64dp"
         android:autoLink="web"
-        android:text="Visit our GitHub at https://github.com/amirul360/ezGoldZakat.git"
+        android:text="Visit our GitHub https://github.com/amirul360/ezGoldZakat_zakatGoldCalculatorApp.git"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="0.899" />
 
     <ImageButton
         android:id="@+id/shareButton"

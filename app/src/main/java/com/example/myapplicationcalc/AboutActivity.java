@@ -54,7 +54,7 @@ public class AboutActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this app! - https://github.com/amirul360/ezGoldZakat.git");
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Check out this app! - https://github.com/amirul360/ezGoldZakat_zakatGoldCalculatorApp.git");
 
                     // Always use Intent.createChooser so the user gets a clean popup selection
                     startActivity(Intent.createChooser(shareIntent, "Share via"));
